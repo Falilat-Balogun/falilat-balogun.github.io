@@ -2,63 +2,196 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Abisoye Balogun | Data Analyst Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abisoye Balogun – Data Analyst Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Embedded CSS for professional styling -->
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; padding: 0 20px; }
-        h1, h2 { color: #333; }
-        a { color: #1a0dab; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        ul { padding-left: 20px; }
-        details { margin-bottom: 15px; }
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f6fa;
+            color: #333;
+            margin: 0;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #0077b5; /* LinkedIn blue */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h1, h2, h3 {
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        /* Header / Intro */
+        header {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Sections */
+        section {
+            background-color: #fff;
+            padding: 25px 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Skills */
+        .skills ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skills li {
+            background-color: #e1ecf4;
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+
+        /* Projects */
+        .projects ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .projects li {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f0f4f8;
+            border-left: 5px solid #0077b5;
+            border-radius: 5px;
+        }
+
+        .projects li a {
+            font-weight: 600;
+        }
+
+        /* Contact */
+        .contact a {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .projects li {
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
 
-<h1>Hi, I'm Abisoye</h1>
-<p>I am a certified Data Analyst with a background in Agriculture and experience turning data into actionable insights.</p>
+    <!-- Header / Introduction -->
+    <header>
+        <h1>Abisoye Balogun</h1>
+        <p>
+            I'm an aspiring <strong>Data Analyst</strong> with a background in Agriculture 
+            and a growing interest in data-driven decision making. I enjoy turning data into insights that help businesses and individuals make informed decisions.
+        </p>
+    </header>
 
-<h2>Skills</h2>
-<ul>
-    <li>Excel (Data Cleaning, Analysis, Pivot Tables, Dashboards, Data Visualization)</li>
-    <li>SQL (Queries, Joins, Data Extraction)</li>
-    <li>Power BI (Data Visualization, Dashboards, Reports)</li>
-    <li>Data Cleaning & Preparation</li>
-    <li>Report Writing</li>
-</ul>
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Excel (Data Cleaning, Analysis, Pivot Tables, Data visualization, Dashboards)</li>
+            <li>SQL (Queries, Joins, Data Extraction)</li>
+            <li>Power BI (Data Visualization, Dashboards, Reports)</li>
+            <li>Data Cleaning & Preparation</li>
+            <li>Report Writing</li>
+        </ul>
+    </section>
 
-<h2>Featured Projects</h2>
-<ul>
-    <li><a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_powerbi-digitalmarketing-datavisualization-activity-7401004122260365313-MokQ?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=share_via">Digital Marketing Analysis</a> – Analyzed digital marketing performance using Power BI.</li>
-    <li><a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_dataanalytics-beautyindustry-skincare-activity-7401541171035934721-yUR0?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=copy_link">Supply Chain Analysis</a> – Developed interactive dashboards to track supply chain metrics.</li>
-    <li><a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_investmentpreferences-datavisualization-businessintelligence-activity-7402024302369345536-apII?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=copy_link">Investment Preference Analysis</a> – Visualized investment trends in Excel/Power BI.</li>
-    <li><a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_exceldashboard-retailinsights-customeranalytics-activity-7402382655062786048-rJyZ?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=copy_link">Retail Sales and Customer Demographics Analysis</a> – Created an interactive Excel dashboard to analyze sales and customer patterns.</li>
-</ul>
+    <!-- Featured Projects -->
+    <section class="projects">
+        <h2>Featured Projects</h2>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_powerbi-digitalmarketing-datavisualization-activity-7401004122260365313-MokQ?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=share_via" target="_blank">
+                    Digital Marketing Analysis
+                </a> – Analyzed digital marketing performance using Power BI.
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_dataanalytics-beautyindustry-skincare-activity-7401541171035934721-yUR0?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=copy_link" target="_blank">
+                    Supply Chain Analysis
+                </a> – Developed interactive dashboards to track supply chain metrics.
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_investmentpreferences-datavisualization-businessintelligence-activity-7402024302369345536-apII?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=copy_link" target="_blank">
+                    Investment Preference Analysis
+                </a> – Visualized investment trends in Excel/Power BI.
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/posts/falilat-balogun-bb25a6233_exceldashboard-retailinsights-customeranalytics-activity-7402382655062786048-rJyZ?utm_medium=ios_app&rcm=ACoAADpJRTYBRjlLhkfccqVZIf5MgZCClf-cqvM&utm_source=social_share_send&utm_campaign=copy_link" target="_blank">
+                    Retail Sales and Customer Demographics Analysis
+                </a> – Created an interactive Excel dashboard to analyze sales and customer patterns.
+            </li>
+        </ul>
+    </section>
 
-<h2>Other Projects</h2>
-<details>
-<summary>Click to expand</summary>
-<ul>
-  <li>Sales Performance Analysis – Interactive Excel dashboard for tracking KPIs and trends</li>
-  <li>Airplane Crashes & Fatalities Analysis – Power BI dashboard analyzing historical crash data</li>
-  <li>Global Debt Analysis – Power BI dashboard exploring debt trends across countries</li>
-  <li>Hotel Booking Analysis – Power BI dashboard analyzing booking patterns and cancellations</li>
-  <li>Car Insurance Policies Analysis – Excel dashboard analyzing claims and customer demographics</li>
-  <li>Global Mental Health Trends Analysis – Excel dashboard visualizing disorder prevalence</li>
-  <li>Women’s Clothing E-commerce Review Analysis – Power BI dashboard analyzing customer reviews</li>
-  <li>TATA Online Retail Analysis – Power BI dashboard exploring sales and customer behavior</li>
-  <li>Bank Customer Churn Analysis – Power BI dashboard identifying churn drivers</li>
-  <li>Amazon E-commerce Sales Performance – Power BI dashboard analyzing product and sales trends</li>
-  <li>Supply Chain Greenhouse Gas Emissions – Power BI dashboard tracking emission hotspots</li>
-  <li>Health Insurance Coverage Analysis – Excel dashboard analyzing coverage gaps</li>
-  <li>U.S. International Air Traffic Analysis – Power BI dashboard analyzing flight trends</li>
-</ul>    
-</details>
+    <!-- Other Projects -->
+    <section class="projects">
+        <h2>Other Projects</h2>
+        <ul>
+            <li>Sales Performance Analysis – Built an interactive Excel dashboard to track key metrics and trends.</li>
+            <li>Airplane Crashes and Fatalities Analysis – Created a Power BI dashboard to visualize crash and fatality trends.</li>
+            <li>Global Debt Analysis – Developed Power BI dashboards to explore debt trends across countries.</li>
+            <li>Hotel Booking Analysis – Analyzed booking patterns and customer behavior with Power BI.</li>
+            <li>Car Insurance Policies Analysis – Built Excel dashboards to monitor policies and claims trends.</li>
+            <li>Global Mental Health Disorder Trends – Developed Excel dashboards to explore global mental health data.</li>
+            <li>Women Clothing eCommerce Review Analysis – Power BI dashboard analyzing customer reviews and trends.</li>
+            <li>TATA Online Retail Analysis – Power BI dashboard for sales performance and customer behavior.</li>
+            <li>Bank Customer Churn Analysis – Monitored churn and key factors using Power BI dashboards.</li>
+            <li>Amazon eCommerce Sales Performance Analysis – Created Power BI dashboards for sales patterns and top products.</li>
+            <li>Supply Chain Greenhouse Gas Emissions – Power BI dashboard tracking carbon trends and hotspots.</li>
+            <li>Health Insurance Coverage Analysis – Excel dashboards analyzing coverage patterns and gaps.</li>
+            <li>U.S. International Air Traffic Analysis – Power BI dashboard exploring flight trends and passenger volumes.</li>
+        </ul>
+    </section>
 
-<h2>Contact</h2>
-<ul>
-    <li>Email: <a href="mailto:balogunfalilatabisoye@gmail.com">balogunfalilatabisoye@gmail.com</a></li>
-    <li>LinkedIn: <a href="http://linkedin.com/in/falilat-balogun-bb25a6233">Falilat Abisoye Balogun</a></li>
-</ul>
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:balogunfalilatabisoye@gmail.com">balogunfalilatabisoye@gmail.com</a></p>
+        <p>LinkedIn: <a href="http://linkedin.com/in/falilat-balogun-bb25a6233" target="_blank">Falilat Abisoye Balogun</a></p>
+    </section>
 
 </body>
 </html>
